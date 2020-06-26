@@ -119,7 +119,7 @@ items:
       template: sample-spring-boot
     name: argocd-postgresql
   spec:
-    replicas: 3
+    replicas: 1
     selector:
       name: argocd-postgresql
     strategy:
